@@ -1,7 +1,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter_redux/flutter_redux.dart';
-import 'package:rate_it/todo_list_view/todo_list_view.dart';
+import 'package:rate_it/todo/list/todo_list_view.dart';
 import '../state/state.dart' as state;
 
 class MyHomePageViewModel {
