@@ -1,7 +1,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter_redux/flutter_redux.dart';
-import 'package:rate_it/todo/list/todo_list_view.dart';
+import 'package:rate_it/todo/list/route.dart';
 import '../state/state.dart' as state;
 
 class MyHomePageViewModel {
@@ -23,7 +23,7 @@ class MyHomePage extends StatelessWidget {
       body: Center(
         // Center is a layout widget. It takes a single child and positions it
         // in the middle of the parent.
-        child: TodoListView()
+        child: TodoListRoute()
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: vm.increment,

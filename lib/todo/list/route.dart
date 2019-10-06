@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_redux/flutter_redux.dart';
 import 'package:rate_it/state/state.dart';
 import 'package:rate_it/todo/item/route.dart';
+import 'package:rate_it/todo/item/shared.dart';
 import 'package:rate_it/todo/state/actions.dart';
 import 'package:rate_it/todo/state/model.dart';
 
@@ -12,7 +13,7 @@ class TodoListViewModel {
   TodoListViewModel({this.items, this.complete, this.selectItem});
 }
 
-class TodoListView extends StatelessWidget {
+class TodoListRoute extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return StoreConnector<AppState, TodoListViewModel>(
@@ -42,7 +43,7 @@ class TodoListView extends StatelessWidget {
               },
               child: Container(
                   height: 50,
-                  child: Center(child: Text(item.title))
+                  child: Center(child: SharedItem(title: item.title, id: item.id))
               ),
             );
           },
