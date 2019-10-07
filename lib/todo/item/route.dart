@@ -19,10 +19,10 @@ class TodoItemRoute extends StatelessWidget {
         appBar: AppBar(title: Text('So many titles')),
         body: Column(
           children: [
-            TestView(),
             Center(
               child: SharedItem(title: vm.selectedItem.title, id: vm.selectedItem.id)
-            )
+            ),
+            TestView()
           ],
         ),
     )

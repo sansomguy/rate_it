@@ -12,7 +12,6 @@ class TestView extends StatelessWidget {
 
     return SizedBox(
       height: 200,
-      width: 200,
       child: WebView(
         initialUrl: '',
         onWebViewCreated: (WebViewController webViewController) {
