@@ -5,7 +5,6 @@ import 'package:webview_flutter/webview_flutter.dart';
 import 'package:flutter/services.dart' show rootBundle;
 
 class TestView extends StatelessWidget {
-  WebViewController _controller;
 
   @override
   Widget build(BuildContext context) {
@@ -15,16 +14,15 @@ class TestView extends StatelessWidget {
       child: WebView(
         initialUrl: '',
         onWebViewCreated: (WebViewController webViewController) {
-          _controller = webViewController;
-          _loadHtmlFromAssets();
+          _loadHtmlFromAssets(webViewController);
         },
       )
     );
   }
 
-  _loadHtmlFromAssets() async {
+  _loadHtmlFromAssets(WebViewController webViewController) async {
     String fileText = await rootBundle.loadString('assets/test.html');
-    _controller.loadUrl( Uri.dataFromString(
+    webViewController.loadUrl( Uri.dataFromString(
         fileText,
         mimeType: 'text/html',
         encoding: Encoding.getByName('utf-8')
