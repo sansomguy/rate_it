@@ -1,16 +1,16 @@
 import 'model.dart';
 
-String CompleteItem = '[TodoList] Complete Item';
-String SelectItem = '[TodoList] select item';
+String completeItemAction = '[TodoList] Complete Item';
+String selectItemAction = '[TodoList] select item';
 
 class CompleteTodoListItemAction {
-  final String type = CompleteItem;
+  final String type = completeItemAction;
   final int todoItemId;
   CompleteTodoListItemAction(this.todoItemId);
 }
 
 class SelectTodoItemAction {
-  final String type = SelectItem;
+  final String type = selectItemAction;
   final TodoItem item;
   SelectTodoItemAction(this.item);
 }
