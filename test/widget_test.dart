@@ -22,7 +22,7 @@ void main() {
     expect(find.text('0'), findsOneWidget);
     expect(find.text('1'), findsNothing);
 
-    var type = FloatingActionButton().runtimeType;
+    var type = FloatingActionButton(onPressed: () => {},).runtimeType;
     // Tap the '+' icon and trigger a frame.
     await tester.tap(find.byType(type));
     await tester.pump();
