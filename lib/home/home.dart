@@ -1,7 +1,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter_redux/flutter_redux.dart';
-import 'package:rate_it/todo/list/route.dart';
+import 'package:rate_it/music/list/route.dart';
 import '../state/state.dart' as state;
 
 class MyHomePageViewModel {
@@ -15,21 +15,23 @@ class MyHomePage extends StatelessWidget {
   Widget build(BuildContext context) => StoreConnector<state.AppState, MyHomePageViewModel>(
     converter: (store) => MyHomePageViewModel(counter: store.state.counterState, increment: () => store.dispatch(state.Actions.Increment)),
     builder: (BuildContext context, MyHomePageViewModel vm) => Scaffold(
-      appBar: AppBar(
-        // Here we take the value from the MyHomePage object that was created by
-        // the App.build method, and use it to set our appbar title.
-        title: Text('HomePage'),
-      ),
-      body: Center(
-        // Center is a layout widget. It takes a single child and positions it
-        // in the middle of the parent.
-        child: TodoListRoute()
-      ),
-      floatingActionButton: FloatingActionButton(
-        onPressed: vm.increment,
-        tooltip: 'Increment',
-        child: Text('${vm.counter}'),
-      ), // This trailing comma makes auto-formatting nicer for build methods.
+      body: MusicList(),
+      bottomNavigationBar: BottomNavigationBar(
+        items: [
+          BottomNavigationBarItem(
+            icon: Icon(Icons.home),
+            title: Text("Home"),
+          ),
+          BottomNavigationBarItem(
+            icon: Icon(Icons.trending_up),
+            title: Text("Trending"),
+          ),
+          BottomNavigationBarItem(
+            icon: Icon(Icons.library_music),
+            title: Text("Library"),
+          )
+        ],
+      )
     )
   );
 }

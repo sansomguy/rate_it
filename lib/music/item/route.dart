@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_redux/flutter_redux.dart';
+import 'package:rate_it/music/html/test.dart';
 import 'package:rate_it/state/state.dart';
-import 'package:rate_it/todo/html/test.dart';
-import 'package:rate_it/todo/item/shared.dart';
-import 'package:rate_it/todo/state/model.dart';
+import 'package:rate_it/music/item/shared.dart';
+import 'package:rate_it/music/state/model.dart';
 
 
 class TodoItemViewModel {

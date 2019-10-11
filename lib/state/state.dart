@@ -1,5 +1,5 @@
-import 'package:rate_it/todo/state/model.dart';
-import 'package:rate_it/todo/state/reducer.dart';
+import 'package:rate_it/music/state/model.dart';
+import 'package:rate_it/music/state/reducer.dart';
 
 enum Actions { Increment }
 
