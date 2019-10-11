@@ -1,11 +1,13 @@
 import 'package:flutter/widgets.dart';
 import 'package:rate_it/music/list/thumbnail/thumbnail.dart';
+import 'package:rate_it/music/state/model.dart';
 
 class Category extends StatelessWidget {
 
   final int index;
+  final List<MediaItem> mediaItems;
 
-  Category(this.index);
+  Category({this.index, this.mediaItems});
 
   @override
   Widget build(BuildContext context) {
@@ -14,10 +16,10 @@ class Category extends StatelessWidget {
         padding: EdgeInsets.all(0),
         child: ListView.builder(
             scrollDirection: Axis.horizontal,
-            itemCount: 10,
+            itemCount: mediaItems.length,
             padding: EdgeInsets.all(0),
             itemBuilder: (BuildContext context, int index){
-              return Thumbnail(this.index + index);
+              return Thumbnail(index: this.index, mediaItem: this.mediaItems[index]);
             }
         )
     );

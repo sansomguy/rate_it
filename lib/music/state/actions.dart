@@ -1,16 +1,18 @@
 import 'model.dart';
 
-String completeItemAction = '[TodoList] Complete Item';
-String selectItemAction = '[TodoList] select item';
-
-class CompleteTodoListItemAction {
-  final String type = completeItemAction;
-  final int todoItemId;
-  CompleteTodoListItemAction(this.todoItemId);
+class FetchItemsAction {
 }
 
-class SelectTodoItemAction {
-  final String type = selectItemAction;
-  final TodoItem item;
-  SelectTodoItemAction(this.item);
+class ErrorFetchingItemsAction {
+
+}
+
+class SelectItemAction {
+  final MediaItem item;
+  SelectItemAction(this.item);
+}
+
+class ReceivedItemsAction {
+  final List<MediaItem> items;
+  ReceivedItemsAction(this.items);
 }

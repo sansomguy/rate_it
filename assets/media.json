@@ -1,0 +1,368 @@
+{
+  "media": [
+    {
+      "category": "Jazz",
+      "artist": "Louis Armstrong",
+      "album": "https://images-na.ssl-images-amazon.com/images/I/51weyxN2FKL.jpg"
+    },
+    {
+      "category": "Jazz",
+      "artist": "Charlie Parker",
+      "album": "https://cdn.pastemagazine.com/www/system/images/photo_albums/jazz-album-design/large/charlie-parker-with-strings-the-master-takes--album-artwork-.jpg?1384968217"
+    },
+    {
+      "category": "Jazz",
+      "artist": "Diana Krall",
+      "album": "https://mediad.publicbroadcasting.net/p/kmuw/files/styles/x_large/public/201907/diana_krall_live_in_paris.jpg"
+    },
+    {
+      "category": "Hip Hop",
+      "artist": "Eminem",
+      "album": "https://i.pinimg.com/originals/e4/7b/01/e47b01f57dcae2838199b781b2899c29.jpg"
+    },
+    {
+      "category": "Hip Hop",
+      "artist": "Chance the Rapper",
+      "album": "http://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&ved=2ahUKEwjriM60nZTlAhWOWX0KHTfnDBwQjRx6BAgBEAQ&url=http%3A%2F%2Fwww.prefixmag.com%2Fnews%2Fartist-reimagines-modern-hip-hop-album-covers-retro-vinyl-art%2F203344%2F&psig=AOvVaw0cgrgIxifhxa9RFdCB9Z5d&ust=1570884038121788"
+    },
+    {
+      "category": "Hip Hop",
+      "artist": "Acid Wrap",
+      "album": "https://www.rollingstone.com/wp-content/uploads/2018/06/rs-134733-hiphop-1800-1386786862.jpg"
+    },
+    {
+      "category": "R&B Collective",
+      "artist": "Kanye West",
+      "album": "https://i.redd.it/x3vh76l1wxg01.jpg"
+    },
+    {
+      "category": "R&B Collective",
+      "artist": "Robin Thicke",
+      "album": "https://www.thisisrnb.com/wp-content/uploads/2013/06/Robin-Thicke-Blurred-Lines-album-cover.jpg"
+    },
+    {
+      "category": "R&B Collective",
+      "artist": "Anderson Paak",
+      "album": "https://djbooth.net/.image/t_share/MTUzNDg1OTIwMDgwMDQ1OTM3/image-placeholder-title.jpg"
+    },
+    {
+      "category": "Indie",
+      "artist": "Matt Corby",
+      "album": "http://3.bp.blogspot.com/-9BtXN-PRW8s/UPdHvSU7HFI/AAAAAAAAAOw/4JtjcRolAf8/s1600/mattcorby-intotheflame-low-res.jpg"
+    },
+    {
+      "category": "Indie",
+      "artist": "When we were",
+      "album": "https://images-platform.99static.com/cCzcGnIXbZnha5lNO3-vfyZ4uVU=/3x3:2040x2040/fit-in/900x675/99designs-contests-attachments/89/89297/attachment_89297490"
+    },
+    {
+      "category": "Indie",
+      "artist": "Art vs Science",
+      "album": "https://i0.wp.com/creativesfeed.com/wp-content/uploads/2018/08/Art-vs-Science-by-Andrew-Fairclough.jpg?w=8000&ssl=1"
+    },
+    {
+      "category": "Pop",
+      "artist": "Michael Jackson",
+      "album": "https://media.npr.org/assets/img/2010/11/09/mj-michael_custom-fc8ec896ecb722af088a5a5d172db3c5941f7314-s800-c85.jpg"
+    },
+    {
+      "category": "Pop",
+      "artist": "Taylor Swift",
+      "album": "https://www.billboard.com/files/styles/900_wide/public/media/06-taylor-swift-reputation-album-art-2017-billboard-1240.jpg"
+    },
+
+    {
+      "category": "Pop",
+      "artist": "Lady Gaga",
+      "album": "https://www.billboard.com/files/media/Lady-Gaga-The-Fame-cover-billboard-1240.jpg"
+    },
+    {
+      "category": "Christian",
+      "artist": "Hillsong",
+      "album": "https://upload.wikimedia.org/wikipedia/en/4/40/There_Is_More_by_Hillsong_Worship_%28Official_Album_Cover%29.jpg"
+    },
+    {
+      "category": "Christian",
+      "artist": "Bethel",
+      "album": "https://static.wixstatic.com/media/e723b4_73aea0ee49a147c09beaa8b968f0d4cf~mv2_d_2000_2000_s_2.jpg/v1/fill/w_630,h_630,al_c,q_85,usm_0.66_1.00_0.01/e723b4_73aea0ee49a147c09beaa8b968f0d4cf~mv2_d_2000_2000_s_2.jpg"
+    },
+    {
+      "category": "Christian",
+      "artist": "Jesus Culture",
+      "album": "https://cdn.saleminteractivemedia.com/115/content/150858/jesus-culture-love-has-a-name.jpg"
+    },
+    {
+      "category": "Jazz",
+      "artist": "Louis Armstrong",
+      "album": "https://images-na.ssl-images-amazon.com/images/I/51weyxN2FKL.jpg"
+    },
+    {
+      "category": "Jazz",
+      "artist": "Charlie Parker",
+      "album": "https://cdn.pastemagazine.com/www/system/images/photo_albums/jazz-album-design/large/charlie-parker-with-strings-the-master-takes--album-artwork-.jpg?1384968217"
+    },
+    {
+      "category": "Jazz",
+      "artist": "Diana Krall",
+      "album": "https://mediad.publicbroadcasting.net/p/kmuw/files/styles/x_large/public/201907/diana_krall_live_in_paris.jpg"
+    },
+    {
+      "category": "Hip Hop",
+      "artist": "Eminem",
+      "album": "https://i.pinimg.com/originals/e4/7b/01/e47b01f57dcae2838199b781b2899c29.jpg"
+    },
+    {
+      "category": "Hip Hop",
+      "artist": "Chance the Rapper",
+      "album": "http://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&ved=2ahUKEwjriM60nZTlAhWOWX0KHTfnDBwQjRx6BAgBEAQ&url=http%3A%2F%2Fwww.prefixmag.com%2Fnews%2Fartist-reimagines-modern-hip-hop-album-covers-retro-vinyl-art%2F203344%2F&psig=AOvVaw0cgrgIxifhxa9RFdCB9Z5d&ust=1570884038121788"
+    },
+    {
+      "category": "Hip Hop",
+      "artist": "Acid Wrap",
+      "album": "https://www.rollingstone.com/wp-content/uploads/2018/06/rs-134733-hiphop-1800-1386786862.jpg"
+    },
+    {
+      "category": "R&B Collective",
+      "artist": "Kanye West",
+      "album": "https://i.redd.it/x3vh76l1wxg01.jpg"
+    },
+    {
+      "category": "R&B Collective",
+      "artist": "Robin Thicke",
+      "album": "https://www.thisisrnb.com/wp-content/uploads/2013/06/Robin-Thicke-Blurred-Lines-album-cover.jpg"
+    },
+    {
+      "category": "R&B Collective",
+      "artist": "Anderson Paak",
+      "album": "https://djbooth.net/.image/t_share/MTUzNDg1OTIwMDgwMDQ1OTM3/image-placeholder-title.jpg"
+    },
+    {
+      "category": "Indie",
+      "artist": "Matt Corby",
+      "album": "http://3.bp.blogspot.com/-9BtXN-PRW8s/UPdHvSU7HFI/AAAAAAAAAOw/4JtjcRolAf8/s1600/mattcorby-intotheflame-low-res.jpg"
+    },
+    {
+      "category": "Indie",
+      "artist": "When we were",
+      "album": "https://images-platform.99static.com/cCzcGnIXbZnha5lNO3-vfyZ4uVU=/3x3:2040x2040/fit-in/900x675/99designs-contests-attachments/89/89297/attachment_89297490"
+    },
+    {
+      "category": "Indie",
+      "artist": "Art vs Science",
+      "album": "https://i0.wp.com/creativesfeed.com/wp-content/uploads/2018/08/Art-vs-Science-by-Andrew-Fairclough.jpg?w=8000&ssl=1"
+    },
+    {
+      "category": "Pop",
+      "artist": "Michael Jackson",
+      "album": "https://media.npr.org/assets/img/2010/11/09/mj-michael_custom-fc8ec896ecb722af088a5a5d172db3c5941f7314-s800-c85.jpg"
+    },
+    {
+      "category": "Pop",
+      "artist": "Taylor Swift",
+      "album": "https://www.billboard.com/files/styles/900_wide/public/media/06-taylor-swift-reputation-album-art-2017-billboard-1240.jpg"
+    },
+
+    {
+      "category": "Pop",
+      "artist": "Lady Gaga",
+      "album": "https://www.billboard.com/files/media/Lady-Gaga-The-Fame-cover-billboard-1240.jpg"
+    },
+    {
+      "category": "Christian",
+      "artist": "Hillsong",
+      "album": "https://upload.wikimedia.org/wikipedia/en/4/40/There_Is_More_by_Hillsong_Worship_%28Official_Album_Cover%29.jpg"
+    },
+    {
+      "category": "Christian",
+      "artist": "Bethel",
+      "album": "https://static.wixstatic.com/media/e723b4_73aea0ee49a147c09beaa8b968f0d4cf~mv2_d_2000_2000_s_2.jpg/v1/fill/w_630,h_630,al_c,q_85,usm_0.66_1.00_0.01/e723b4_73aea0ee49a147c09beaa8b968f0d4cf~mv2_d_2000_2000_s_2.jpg"
+    },
+    {
+      "category": "Christian",
+      "artist": "Jesus Culture",
+      "album": "https://cdn.saleminteractivemedia.com/115/content/150858/jesus-culture-love-has-a-name.jpg"
+    },
+    {
+      "category": "Jazz",
+      "artist": "Louis Armstrong",
+      "album": "https://images-na.ssl-images-amazon.com/images/I/51weyxN2FKL.jpg"
+    },
+    {
+      "category": "Jazz",
+      "artist": "Charlie Parker",
+      "album": "https://cdn.pastemagazine.com/www/system/images/photo_albums/jazz-album-design/large/charlie-parker-with-strings-the-master-takes--album-artwork-.jpg?1384968217"
+    },
+    {
+      "category": "Jazz",
+      "artist": "Diana Krall",
+      "album": "https://mediad.publicbroadcasting.net/p/kmuw/files/styles/x_large/public/201907/diana_krall_live_in_paris.jpg"
+    },
+    {
+      "category": "Hip Hop",
+      "artist": "Eminem",
+      "album": "https://i.pinimg.com/originals/e4/7b/01/e47b01f57dcae2838199b781b2899c29.jpg"
+    },
+    {
+      "category": "Hip Hop",
+      "artist": "Chance the Rapper",
+      "album": "http://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&ved=2ahUKEwjriM60nZTlAhWOWX0KHTfnDBwQjRx6BAgBEAQ&url=http%3A%2F%2Fwww.prefixmag.com%2Fnews%2Fartist-reimagines-modern-hip-hop-album-covers-retro-vinyl-art%2F203344%2F&psig=AOvVaw0cgrgIxifhxa9RFdCB9Z5d&ust=1570884038121788"
+    },
+    {
+      "category": "Hip Hop",
+      "artist": "Acid Wrap",
+      "album": "https://www.rollingstone.com/wp-content/uploads/2018/06/rs-134733-hiphop-1800-1386786862.jpg"
+    },
+    {
+      "category": "R&B Collective",
+      "artist": "Kanye West",
+      "album": "https://i.redd.it/x3vh76l1wxg01.jpg"
+    },
+    {
+      "category": "R&B Collective",
+      "artist": "Robin Thicke",
+      "album": "https://www.thisisrnb.com/wp-content/uploads/2013/06/Robin-Thicke-Blurred-Lines-album-cover.jpg"
+    },
+    {
+      "category": "R&B Collective",
+      "artist": "Anderson Paak",
+      "album": "https://djbooth.net/.image/t_share/MTUzNDg1OTIwMDgwMDQ1OTM3/image-placeholder-title.jpg"
+    },
+    {
+      "category": "Indie",
+      "artist": "Matt Corby",
+      "album": "http://3.bp.blogspot.com/-9BtXN-PRW8s/UPdHvSU7HFI/AAAAAAAAAOw/4JtjcRolAf8/s1600/mattcorby-intotheflame-low-res.jpg"
+    },
+    {
+      "category": "Indie",
+      "artist": "When we were",
+      "album": "https://images-platform.99static.com/cCzcGnIXbZnha5lNO3-vfyZ4uVU=/3x3:2040x2040/fit-in/900x675/99designs-contests-attachments/89/89297/attachment_89297490"
+    },
+    {
+      "category": "Indie",
+      "artist": "Art vs Science",
+      "album": "https://i0.wp.com/creativesfeed.com/wp-content/uploads/2018/08/Art-vs-Science-by-Andrew-Fairclough.jpg?w=8000&ssl=1"
+    },
+    {
+      "category": "Pop",
+      "artist": "Michael Jackson",
+      "album": "https://media.npr.org/assets/img/2010/11/09/mj-michael_custom-fc8ec896ecb722af088a5a5d172db3c5941f7314-s800-c85.jpg"
+    },
+    {
+      "category": "Pop",
+      "artist": "Taylor Swift",
+      "album": "https://www.billboard.com/files/styles/900_wide/public/media/06-taylor-swift-reputation-album-art-2017-billboard-1240.jpg"
+    },
+
+    {
+      "category": "Pop",
+      "artist": "Lady Gaga",
+      "album": "https://www.billboard.com/files/media/Lady-Gaga-The-Fame-cover-billboard-1240.jpg"
+    },
+    {
+      "category": "Christian",
+      "artist": "Hillsong",
+      "album": "https://upload.wikimedia.org/wikipedia/en/4/40/There_Is_More_by_Hillsong_Worship_%28Official_Album_Cover%29.jpg"
+    },
+    {
+      "category": "Christian",
+      "artist": "Bethel",
+      "album": "https://static.wixstatic.com/media/e723b4_73aea0ee49a147c09beaa8b968f0d4cf~mv2_d_2000_2000_s_2.jpg/v1/fill/w_630,h_630,al_c,q_85,usm_0.66_1.00_0.01/e723b4_73aea0ee49a147c09beaa8b968f0d4cf~mv2_d_2000_2000_s_2.jpg"
+    },
+    {
+      "category": "Christian",
+      "artist": "Jesus Culture",
+      "album": "https://cdn.saleminteractivemedia.com/115/content/150858/jesus-culture-love-has-a-name.jpg"
+    },
+    {
+      "category": "Jazz",
+      "artist": "Louis Armstrong",
+      "album": "https://images-na.ssl-images-amazon.com/images/I/51weyxN2FKL.jpg"
+    },
+    {
+      "category": "Jazz",
+      "artist": "Charlie Parker",
+      "album": "https://cdn.pastemagazine.com/www/system/images/photo_albums/jazz-album-design/large/charlie-parker-with-strings-the-master-takes--album-artwork-.jpg?1384968217"
+    },
+    {
+      "category": "Jazz",
+      "artist": "Diana Krall",
+      "album": "https://mediad.publicbroadcasting.net/p/kmuw/files/styles/x_large/public/201907/diana_krall_live_in_paris.jpg"
+    },
+    {
+      "category": "Hip Hop",
+      "artist": "Eminem",
+      "album": "https://i.pinimg.com/originals/e4/7b/01/e47b01f57dcae2838199b781b2899c29.jpg"
+    },
+    {
+      "category": "Hip Hop",
+      "artist": "Chance the Rapper",
+      "album": "http://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&ved=2ahUKEwjriM60nZTlAhWOWX0KHTfnDBwQjRx6BAgBEAQ&url=http%3A%2F%2Fwww.prefixmag.com%2Fnews%2Fartist-reimagines-modern-hip-hop-album-covers-retro-vinyl-art%2F203344%2F&psig=AOvVaw0cgrgIxifhxa9RFdCB9Z5d&ust=1570884038121788"
+    },
+    {
+      "category": "Hip Hop",
+      "artist": "Acid Wrap",
+      "album": "https://www.rollingstone.com/wp-content/uploads/2018/06/rs-134733-hiphop-1800-1386786862.jpg"
+    },
+    {
+      "category": "R&B Collective",
+      "artist": "Kanye West",
+      "album": "https://i.redd.it/x3vh76l1wxg01.jpg"
+    },
+    {
+      "category": "R&B Collective",
+      "artist": "Robin Thicke",
+      "album": "https://www.thisisrnb.com/wp-content/uploads/2013/06/Robin-Thicke-Blurred-Lines-album-cover.jpg"
+    },
+    {
+      "category": "R&B Collective",
+      "artist": "Anderson Paak",
+      "album": "https://djbooth.net/.image/t_share/MTUzNDg1OTIwMDgwMDQ1OTM3/image-placeholder-title.jpg"
+    },
+    {
+      "category": "Indie",
+      "artist": "Matt Corby",
+      "album": "http://3.bp.blogspot.com/-9BtXN-PRW8s/UPdHvSU7HFI/AAAAAAAAAOw/4JtjcRolAf8/s1600/mattcorby-intotheflame-low-res.jpg"
+    },
+    {
+      "category": "Indie",
+      "artist": "When we were",
+      "album": "https://images-platform.99static.com/cCzcGnIXbZnha5lNO3-vfyZ4uVU=/3x3:2040x2040/fit-in/900x675/99designs-contests-attachments/89/89297/attachment_89297490"
+    },
+    {
+      "category": "Indie",
+      "artist": "Art vs Science",
+      "album": "https://i0.wp.com/creativesfeed.com/wp-content/uploads/2018/08/Art-vs-Science-by-Andrew-Fairclough.jpg?w=8000&ssl=1"
+    },
+    {
+      "category": "Pop",
+      "artist": "Michael Jackson",
+      "album": "https://media.npr.org/assets/img/2010/11/09/mj-michael_custom-fc8ec896ecb722af088a5a5d172db3c5941f7314-s800-c85.jpg"
+    },
+    {
+      "category": "Pop",
+      "artist": "Taylor Swift",
+      "album": "https://www.billboard.com/files/styles/900_wide/public/media/06-taylor-swift-reputation-album-art-2017-billboard-1240.jpg"
+    },
+
+    {
+      "category": "Pop",
+      "artist": "Lady Gaga",
+      "album": "https://www.billboard.com/files/media/Lady-Gaga-The-Fame-cover-billboard-1240.jpg"
+    },
+    {
+      "category": "Christian",
+      "artist": "Hillsong",
+      "album": "https://upload.wikimedia.org/wikipedia/en/4/40/There_Is_More_by_Hillsong_Worship_%28Official_Album_Cover%29.jpg"
+    },
+    {
+      "category": "Christian",
+      "artist": "Bethel",
+      "album": "https://static.wixstatic.com/media/e723b4_73aea0ee49a147c09beaa8b968f0d4cf~mv2_d_2000_2000_s_2.jpg/v1/fill/w_630,h_630,al_c,q_85,usm_0.66_1.00_0.01/e723b4_73aea0ee49a147c09beaa8b968f0d4cf~mv2_d_2000_2000_s_2.jpg"
+    },
+    {
+      "category": "Christian",
+      "artist": "Jesus Culture",
+      "album": "https://cdn.saleminteractivemedia.com/115/content/150858/jesus-culture-love-has-a-name.jpg"
+    }
+  ]
+}

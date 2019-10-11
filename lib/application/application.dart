@@ -1,4 +1,5 @@
 import 'package:flutter_redux/flutter_redux.dart';
+import 'package:rate_it/music/state/middleware.dart';
 import 'package:redux/redux.dart';
 import 'package:flutter/material.dart';
 import 'package:rate_it/state/state.dart';
@@ -7,7 +8,11 @@ import '../home/home.dart';
 
 
 class FlutterReduxApp extends StatelessWidget {
-  static final store = new Store<AppState>(appStateReducer, initialState: AppState.initialState());
+  static final store = new Store<AppState>(
+      appStateReducer,
+      initialState: AppState.initialState(),
+      middleware: [mediaFetcherMiddleware]
+  );
   FlutterReduxApp({Key key}): super(key: key);
   @override
   Widget build(BuildContext context) => new StoreProvider(store: store, child: MyApp());

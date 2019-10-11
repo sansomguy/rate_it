@@ -1,4 +1,3 @@
-import 'package:rate_it/music/state/model.dart';
 import 'package:rate_it/music/state/reducer.dart';
 
 enum Actions { Increment }
@@ -12,22 +11,15 @@ int counterReducer(int state, dynamic action) {
 }
 
 class AppState {
-  TodoListState todoListState;
+  MediaListState mediaListState;
   int counterState;
-  AppState(this.todoListState, this.counterState);
+  AppState(this.mediaListState, this.counterState);
 
   AppState.initialState() {
-
-    var list = List<TodoItem>();
-    for(var i = 0; i < 100; i++)
-    {
-      list.add(TodoItem(id: i, title: 'This is item number: $i', completed: false));
-    }
-
-   this.todoListState = TodoListState(todoList: list);
+   this.mediaListState = MediaListState(media: [], isFetching: false, selectedItem: null);
    this.counterState = 0;
   }
 }
 
-AppState appStateReducer(AppState state, action) => new AppState(todoListReducer(state.todoListState, action), counterReducer(state.counterState, action));
+AppState appStateReducer(AppState state, action) => new AppState(mediaListReducer(state.mediaListState, action), counterReducer(state.counterState, action));
 

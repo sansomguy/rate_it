@@ -1,7 +1,7 @@
-class TodoItem {
+class MediaItem {
   final int id;
-  String title;
-  bool completed;
-
-  TodoItem({this.id, this.title, this.completed});
+  final String artist;
+  final String album;
+  final String category;
+  MediaItem({this.id, this.artist, this.album, this.category});
 }
