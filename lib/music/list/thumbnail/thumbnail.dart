@@ -24,6 +24,7 @@ class Thumbnail extends StatelessWidget {
                   height: 150,
                   width: 150,
                   color: colors[(new Random(this.index)).nextInt(colors.length)],
+                  child: Image.network("https://i.shgcdn.com/5a09e375-c554-4c76-aae2-2eeb08ccfbb1/-/format/auto/-/preview/3000x3000/-/quality/lighter/"),
                 ),
                 Text("Title", style: TextStyle(fontWeight: FontWeight.bold)),
                 Text("Subtitle")
