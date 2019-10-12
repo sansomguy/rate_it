@@ -1,4 +1,5 @@
 import 'package:flutter/cupertino.dart';
+import 'package:flutter/material.dart';
 
 class ControlButton extends StatelessWidget{
 
@@ -10,7 +11,11 @@ class ControlButton extends StatelessWidget{
   Widget build(BuildContext context) {
     return Container(
       padding: EdgeInsets.only(left: 10, right: 10),
-      child: this.child
+      child: InkWell(
+        onTap: () {},
+        borderRadius: BorderRadius.circular(50),
+        child: this.child
+      )
     );
   }
 
